@@ -2,7 +2,7 @@ package metier;
 
 public class CreditMetier {
 	
-	public double CalculeMetionaliter(double c , int duree , double taux ){
+	public double CalculeMetionaliter(double c , double duree , double taux ){
 		double t = taux/100;
 		double t1=c*t/12;
 		double t2=1-Math.pow((1+t/12),-1*duree);
